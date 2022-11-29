@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem === 10px */
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  background-color: #1e1e1e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root,
+#root,
+#docs-root {
+  --color-bg: #1e1e1e;
+  --color-primary: #ddd;
+  --color-secondary: #2d224c;
+}
