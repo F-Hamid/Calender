@@ -35,3 +35,17 @@ body {
   --color-primary: #ddd;
   --color-secondary: #2d224c;
 }
+
+.gradient-bg {
+  background-image: linear-gradient(
+    to right bottom,
+    #dddddd,
+    #adaab7,
+    #807a93,
+    #554c6f,
+    #2d224c
+  );
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
